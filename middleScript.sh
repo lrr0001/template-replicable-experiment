@@ -7,5 +7,5 @@ setup_replicable_experiment_script $(basename -- "$0")
 #    echo "Error: code failed to run!"
 #    graceful_exit 1
 #fi
-
+export REPLICABLE
 gracefully_exit_successful_replicable_experiment_script
